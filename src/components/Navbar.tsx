@@ -4,7 +4,6 @@ interface INavBarProps {
   additionalRoutes?: string[]
 }
 const NavBar = ({additionalRoutes = []}:INavBarProps) => {
-  console.log(additionalRoutes)
   const defaultRoutes = [
     {
       path: "/",
